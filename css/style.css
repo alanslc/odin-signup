@@ -16,7 +16,7 @@ body {
    max-width: 1600px;
 
    font-family: Tahoma, Verdana, Geneva, sans-serif;
-   /* min-height: 960px; */
+   min-height: 960px;
 }
 
 .left {
