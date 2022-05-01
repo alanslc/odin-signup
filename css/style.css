@@ -14,7 +14,7 @@ body {
 .container {
    display: flex;
    max-width: 1600px;
-
+   margin: auto;
    font-family: Tahoma, Verdana, Geneva, sans-serif;
    min-height: 960px;
 }
@@ -118,7 +118,7 @@ button {
 
 .login {
    font-size: 1.2rem;
-   margin: 0 50px;
+   margin: 0 50px 16px;
 }
 
 .login a {
@@ -134,4 +134,44 @@ button {
 .errMsg {
    font-size: 0.8rem;
    color: red;
+}
+
+@media only screen and (max-width: 768px) {
+   .container {
+      flex-direction: column;
+   }
+
+   .left {
+      width: 100%;
+   }
+
+   .right {
+      width: 100%;
+   }
+
+   .desc {
+      padding: 50px 50px 20px;
+   }
+
+   .input-set {
+      flex-direction: row;
+      width:100%;
+   }
+
+   .form-area label {
+      width: 200px;
+   }
+
+   .form-area input {
+    width: 220px;
+    margin-right: 20px;
+   }
+
+   .errMsg {
+      max-width: 100px;
+   }
+
+   .action-area {
+      text-align: center;
+   }
 }
