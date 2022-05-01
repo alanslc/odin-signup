@@ -103,3 +103,25 @@ body {
 .form-area input:focus {
    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+button {
+   font-size: 1.2rem;
+   background-color: #596D48;
+   color: white;
+   margin: 30px 50px;
+   padding: 15px 50px;
+   border-radius: 10px;
+   border-style: solid;
+
+}
+
+.login {
+   font-size: 1.2rem;
+   margin: 0 50px;
+}
+
+.login a {
+   color: #596D48;
+   font-weight: bold;
+   text-decoration: none;
+}
