@@ -1,0 +1,19 @@
+.container {
+   display: flex;
+   /* min-height: 960px; */
+}
+
+.left {
+   width: 30%;
+   background: url(/images/halie-west-25xggax4bSA-unsplash.jpg) no-repeat;
+   background-size: 120%;
+   /* background-position: center center; */
+   /* background-position: 0% 0%; */
+}
+
+.right {
+   background-color: steelblue;
+   min-height: 500px;
+
+   display: flex;
+}
