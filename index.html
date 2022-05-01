@@ -9,6 +9,8 @@
    <link rel="stylesheet" href="css/style.css">
 </head>
 
+<script src="scripts/script.js"></script>
+
 <body>
    <div class="container">
       <div class="left">
@@ -27,7 +29,7 @@
          </div>
          <div class="let-do-this">Let's do this!</div>
          <div class="form-area">
-            <form action="#">
+            <form action="#" id="form">
                <div class="field-set">
                   <div class="input-set">
                      <label for="fn" class="label">First Name</label>
@@ -57,7 +59,7 @@
             </form>
          </div>
          <div class="action-area">
-            <button id="submit" class="submit-button" onClick="checkForm();">Create Account</button>
+            <button type="submit" id="submit" class="submit-button" form="form">Create Account</button>
             <div class="login">Already have an account? <a href="#">Log in</a></div>
          </div>
       </div>
