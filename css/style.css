@@ -105,10 +105,6 @@ body {
    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.form-area input:invalid {
-   border-color: red;
-}
-
 button {
    font-size: 1.2rem;
    background-color: #596D48;
@@ -129,4 +125,13 @@ button {
    color: #596D48;
    font-weight: bold;
    text-decoration: none;
+}
+
+.form-area input.error {
+   border-color: red;
+}
+
+.errMsg {
+   font-size: 0.8rem;
+   color: red;
 }

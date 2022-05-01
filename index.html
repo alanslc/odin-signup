@@ -9,8 +9,6 @@
    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<script src="scripts/script.js"></script>
-
 <body>
    <div class="container">
       <div class="left">
@@ -29,7 +27,7 @@
          </div>
          <div class="let-do-this">Let's do this!</div>
          <div class="form-area">
-            <form action="#" id="form">
+            <form action="#" id="form" onSubmit="return checkForm()">
                <div class="field-set">
                   <div class="input-set">
                      <label for="fn" class="label">First Name</label>
@@ -50,6 +48,7 @@
                   <div class="input-set">
                      <label for="pw" class="label">Password</label>
                      <input type="password" id="pw" name="password" required>
+                     <div class="errMsg"></div>
                   </div>
                   <div class="input-set">
                      <label for="cpw" class="label">Confirm Password</label>
@@ -65,5 +64,5 @@
       </div>
    </div>
 </body>
-
+<script src="scripts/script.js"></script>
 </html>
