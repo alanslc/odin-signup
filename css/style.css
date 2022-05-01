@@ -17,7 +17,7 @@ body {
 }
 
 .left {
-   width:37vw;
+   width: 37vw;
    background: url(/images/halie-west-25xggax4bSA-unsplash-crop.png) no-repeat;
    background-size: cover;
 }
@@ -31,17 +31,23 @@ body {
    flex-direction: column;
 }
 
-.logo {
-   width: 10em;
+.logo-banner {
+   margin-top: 15vh;
+   padding: 1rem;
+   background-color: rgba(0, 0, 0, 0.4);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
 }
 
-.logo-banner {
-   background-color: rgba(0, 0, 0, 0.2);
+.logo {
+   width: 6rem;
 }
 
 .logo-text {
    color: white;
-   font-size: 3em;
+   font-size: 6rem;
 }
 
 .desc {
