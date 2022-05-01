@@ -8,12 +8,11 @@ body {
    padding: 0;
    margin: 0;
    font-size: 10px;
-   /* background-color: #647486; */
+   background-color: #647486;
 }
 
 .container {
    display: flex;
-   /* margin: auto; */
    max-width: 1600px;
 
    font-family: Tahoma, Verdana, Geneva, sans-serif;
